@@ -1,0 +1,57 @@
+/*  Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) {
+}
+
+/*  Small devices (landscape phones, 576px and up) */
+@media (max-width: 767.98px) {
+    .contact .contact-info-item,
+    .portfolio .portfolio-item,
+    .service .service-item,
+    .about .about-content .education,
+    .about .about-content .experience,
+    .about .about-content .skills,
+    .about .about-content .personal-info{
+        flex: 0 0 100% ;
+        max-width: 100%;
+    }
+ }
+
+ /* Medium devices (tablets, 768px and up) */
+@media (max-width: 991.98px) { 
+    .contact .contact-info-item,
+    .portfolio .portfolio-item,
+    .service .service-item{
+        flex: 0 0 50%;
+        max-width: 50%;
+    }
+    .home .home-info{
+        flex: 0 0 100%;
+        max-width: 100%;
+    }
+    .home .home-img{
+        display: none;
+    }
+ }
+
+ /* Large devices (desktops, 992px and up) */
+@media (max-width: 1199.98px) { 
+    .aside{
+        left: -270px;
+    }
+    .main-content{
+        padding-left: 0;
+    }
+    .about .about-content .personal-info .info-item p span{
+        display: block;
+        margin-left: 0;
+    }
+ }
+
+ /* Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) and (max-width: 1399.98px) { 
+
+ }
+ /* Extra Extra large devices (large desktops, 1200px and up) */
+ @media (min-width: 1400px) { 
+    
+  }
